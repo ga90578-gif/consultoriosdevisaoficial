@@ -1,0 +1,649 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorios de Visa - Exámenes Médicos Consulares</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Logo" class="navbar-logo">
+                <div class="logo-text-group">
+                    <span class="logo-text">Consultorios de Visa</span>
+                    <span class="logo-sub">Exámenes Médicos Migratorios</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#requisitos">Requisitos</a>
+                <a href="#preguntas">Preguntas</a>
+                <a href="#precios">Precios</a>
+                <a href="#subir-informes" class="btn-primary">Subir Informes</a>
+                <a href="#contacto" class="btn-primary">Contacto</a>
+            </div>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-content">
+        <header id="inicio" class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <span class="badge">Atención sin Cita Previa</span>
+                <h1>Consultorios de Visa</h1>
+                <p>Servicio rápido y eficiente con más de 65 años de experiencia en análisis médicos migratorios. En
+                    Consultorios de Visa realizamos exámenes médicos consulares obligatorios para solicitantes de visa
+                    de inmigrante y residencia.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horario</strong>
+                            <span>Lunes a Viernes 6:30 AM - 12:30 PM</span>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Av.+Independencia+254,+Gazcue,+Santo+Domingo,+R.D."
+                        target="_blank" class="stat-item location-link">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Ubicación</strong>
+                            <span>Av. Independencia 254, Gazcue</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="hero-actions" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                    <!-- 'Ver Requisitos' button removed -->
+                    <div class="social-icons-hero">
+                        <a href="https://www.instagram.com/consultoriosdevisard/" target="_blank" class="social-icon"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@consultoriosdevisa" target="_blank" class="social-icon"
+                            aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100063929350456" target="_blank"
+                            class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="info-grid" class="container info-grid">
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-user-md"></i></div>
+                <h3>Servicios Incluidos</h3>
+                <p>Examen físico, análisis de laboratorio, radiografías y vacunas requeridas.</p>
+            </div>
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-file-medical-alt"></i></div>
+                <h3>Resultados Rápidos</h3>
+                <p>Entrega de resultados digital y físico directamente al consulado correspondiente.</p>
+            </div>
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-passport"></i></div>
+                <h3>Múltiples Países</h3>
+                <p>Certificados para USA, Canadá, Australia, Reino Unido y Nueva Zelanda.</p>
+            </div>
+        </section>
+
+        <section id="requisitos" class="section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Requisitos Generales</h2>
+                    <p>Documentación necesaria para su examen médico.</p>
+                </div>
+
+                <div class="pricing-tabs" style="margin-bottom: 2rem;">
+                    <button class="tab-btn active" onclick="openTab(event, 'req-usa', 'req-content')">Estados
+                        Unidos</button>
+                    <button class="tab-btn" onclick="openTab(event, 'req-canada', 'req-content')">Canadá /
+                        Otros Países</button>
+                </div>
+
+                <div id="req-usa" class="req-content active" style="display: block;">
+                    <div class="requirements-list">
+                        <div class="req-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span><strong>Hoja de Cita:</strong> Expedida por el Consulado Americano. Debe incluir los
+                                nombres de cada aplicante. (Original y Copia)</span>
+
+                        </div>
+                        <div class="req-item">
+                            <i class="fas fa-passport"></i>
+                            <span><strong>Pasaporte:</strong> No vencido y en fisico. (No copia)</span>
+                        </div>
+                        <div class="req-item">
+                            <i class="fas fa-id-card"></i>
+                            <span><strong>Cédula de Identidad:</strong> Documento de identificación personal.</span>
+                        </div>
+
+                        <div class="req-item">
+                            <i class="fas fa-child"></i>
+                            <span><strong>Menores (0-17 años):</strong> Si no están acompañados de padres/tutor, traer
+                                poder legalizado dirigido especificamente a Consultorios de Visa y cédula del
+                                acompañante.</span>
+                        </div>
+                        <div class="req-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span><strong>Datos de Contacto en USA:</strong> Dirección, teléfono, zip code, ciudad y
+                                estado
+                                donde vivirán.</span>
+                        </div>
+                        <div class="req-item">
+                            <i class="fas fa-notes-medical"></i>
+                            <span><strong>Tarjeta de Vacunación:</strong> Si tiene tarjeta de vacunación anterior, puede
+                                traerla. (Opcional)</span>
+                        </div>
+
+
+                        <div class="req-item full-width">
+                            <i class="fas fa-utensils"></i>
+                            <span><strong>Importante:</strong> NO ayune antes del examen. Usted debe comer normalmente.
+                                Si
+                                usa algún medicamento, sígalo tomando.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="req-canada" class="req-content" style="display: none;">
+                    <div class="requirements-list">
+                        <div class="req-item">
+                            <i class="fas fa-passport"></i>
+                            <span><strong>Pasaporte:</strong> Con validez de por lo menos 6 meses.</span>
+                        </div>
+                        <div class="req-item">
+                            <i class="fas fa-image"></i>
+                            <span><strong>Foto:</strong> 2x2 fondo blanco a color.</span>
+                        </div>
+                        <div class="req-item">
+                            <i class="fas fa-file-contract"></i>
+                            <span><strong>Formulario:</strong> Y/o carta del consulado (si aplica).</span>
+                        </div>
+
+                        <div class="req-item full-width">
+                            <i class="fas fa-pills"></i>
+                            <span><strong>Medicamentos:</strong> Si usa algún tipo de medicamentos puede
+                                tomarlos.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="proceso" class="section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Proceso de Evaluación</h2>
+                    <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                    <p>Simple, transparente y eficiente.</p>
+                </div>
+
+                <div class="process-timeline">
+                    <!-- Paso 1 -->
+                    <div class="timeline-item visible">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Reúna Documentos</h3>
+                            <p>Pasaporte, carta de cita, fotos y registros de vacunación previos. Verifique los
+                                requisitos
+                                por país.</p>
+                        </div>
+                    </div>
+
+                    <!-- Paso 2 -->
+                    <div class="timeline-item visible">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Llenado de Formulario</h3>
+                            <p>Complete el formulario de datos personales para agilizar su atención. Vea el video
+                                tutorial y descargue el formulario PDF más abajo; debe llenarlo antes de venir.</p>
+                        </div>
+                    </div>
+
+                    <!-- Paso 3 -->
+                    <div class="timeline-item visible">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Visita y Evaluación</h3>
+                            <p>No trabajamos con citas. Asista a nuestro centro dentro del horario laborable. Llegue 15
+                                minutos antes. Realizaremos el examen físico, muestras y rayos X en una sola visita.</p>
+                        </div>
+                    </div>
+
+                    <!-- Paso 4 -->
+                    <div class="timeline-item visible">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Recepción de Resultados</h3>
+                            <p>Los resultados se envían directamente al consulado o se le entregan en sobre sellado
+                                (según el tipo de visado y país).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Tutorial Section -->
+        <section id="video-tutorial" class="section-white">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Video Tutorial</h2>
+                    <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                    <p>Guía paso a paso para completar el proceso.</p>
+                </div>
+                <div class="video-container">
+                    <video controls width="100%" style="border-radius: 10px; box-shadow: var(--shadow-md);">
+                        <source src="formfill.MP4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="Formulario.pdf" download="Formulario-Pacientes.pdf" class="btn-primary">
+                        <i class="fas fa-file-pdf"></i> Descargar Formulario PDF
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Sección Precios (Dinámica) -->
+    <section id="precios-view" class="section-white" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarifas Consulares</h2>
+                <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                <p>Precios en Dólares Americanos (USD). Sujeto a cambios sin previo aviso.</p>
+            </div>
+
+            <div class="pricing-tabs">
+                <button class="tab-btn active" onclick="openTab(event, 'usa', 'pricing-content')">Estados
+                    Unidos</button>
+                <button class="tab-btn" onclick="openTab(event, 'canada', 'pricing-content')">Canadá</button>
+                <button class="tab-btn" onclick="openTab(event, 'australia', 'pricing-content')">Australia</button>
+                <button class="tab-btn" onclick="openTab(event, 'newzealand', 'pricing-content')">Nueva Zelanda</button>
+                <button class="tab-btn" onclick="openTab(event, 'uk', 'pricing-content')">Reino Unido</button>
+            </div>
+
+            <!-- Content for USA -->
+            <div id="usa" class="pricing-content active">
+                <div class="pricing-grid">
+                    <div class="price-card featured">
+                        <div class="featured-badge">Más Común</div>
+                        <span class="price-title">Adultos</span>
+                        <div class="price-value">$400 <span class="currency">USD</span></div>
+                        <ul class="price-features">
+                            <li>Análisis completos</li>
+                            <li>Radiografía Torax</li>
+                            <li>Examen Físico</li>
+                        </ul>
+                    </div>
+                    <div class="price-card">
+                        <span class="price-title">Niños (2-14 años)</span>
+                        <div class="price-value">$225 <span class="currency">USD</span></div>
+                        <ul class="price-features">
+                            <li>Examen Físico</li>
+                            <li>Pruebas específicas</li>
+                        </ul>
+                    </div>
+                    <div class="price-card">
+                        <span class="price-title">Menores (< 2 años)</span>
+                                <div class="price-value">$95 <span class="currency">USD</span></div>
+                                <ul class="price-features">
+                                    <li>Examen Físico Básico</li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content for Canada -->
+            <div id="canada" class="pricing-content">
+                <div class="pricing-grid">
+                    <div class="price-card"><span class="price-title">0-4 Años</span>
+                        <div class="price-value">$120 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card"><span class="price-title">5-10 Años</span>
+                        <div class="price-value">$150 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card"><span class="price-title">11-14 Años</span>
+                        <div class="price-value">$205 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card featured"><span class="price-title">15+ Años</span>
+                        <div class="price-value">$285 <span class="currency">USD</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content for Australia -->
+            <div id="australia" class="pricing-content">
+                <div class="pricing-grid">
+                    <div class="price-card"><span class="price-title">0-4 Años</span>
+                        <div class="price-value">$220 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card"><span class="price-title">5-10 Años</span>
+                        <div class="price-value">$230 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card"><span class="price-title">11-14 Años</span>
+                        <div class="price-value">$240 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card featured"><span class="price-title">15+ Años</span>
+                        <div class="price-value">$285 <span class="currency">USD</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content for New Zealand -->
+            <div id="newzealand" class="pricing-content">
+                <div class="pricing-grid">
+                    <div class="price-card"><span class="price-title">0-4 Años</span>
+                        <div class="price-value">$180 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card"><span class="price-title">5-10 Años</span>
+                        <div class="price-value">$180 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card"><span class="price-title">11-14 Años</span>
+                        <div class="price-value">$240 <span class="currency">USD</span></div>
+                    </div>
+                    <div class="price-card featured"><span class="price-title">15+ Años</span>
+                        <div class="price-value">$285 <span class="currency">USD</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content for UK -->
+            <div id="uk" class="pricing-content">
+                <div class="pricing-grid">
+                    <div class="price-card">
+                        <span class="price-title">0-Adultos</span>
+                        <div class="price-value">$200 <span class="currency">USD</span></div>
+                        <p class="price-sub">Tarifa única</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="nosotros-view" class="section-light" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Nosotros</h2>
+                <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                <p>Nuestra identidad y compromiso.</p>
+            </div>
+
+            <div class="about-grid">
+                <!-- Mission -->
+                <div class="about-row">
+                    <div class="about-text">
+                        <h3>Misión</h3>
+                        <div class="divider-left"></div>
+                        <p>Tenemos como misión prestar servicios y apoyo diagnóstico en el área del examen médico
+                            tanto general como especializado para todos los solicitantes que se encuentran en
+                            proceso de una residencia americana.</p>
+                        <p>Nuestro trabajo se sustenta en las cualidades de un equipo de colaboradores con alta
+                            calidad humana y tecnológica, donde continuamente mejoramos los procesos con fines de
+                            servir cada día mejor, conscientes de la responsabilidad y credibilidad como generadora
+                            de los servicios que ofertamos.</p>
+                    </div>
+                    <div class="about-icon">
+                        <div class="icon-circle">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vision -->
+                <div class="about-row reverse">
+                    <div class="about-text">
+                        <h3>Visión</h3>
+                        <div class="divider-left"></div>
+                        <p>Ser una empresa con la mejor calidad humana, infraestructura y tecnología avanzada para
+                            dar respuestas de servicios con los más altos niveles de Honestidad, Credibilidad, y
+                            Seguridad.</p>
+                    </div>
+                    <div class="about-icon">
+                        <div class="icon-circle">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Values -->
+                <div class="about-row">
+                    <div class="about-text">
+                        <h3>Valores</h3>
+                        <div class="divider-left"></div>
+                        <ul class="values-list">
+                            <li><i class="fas fa-check"></i>
+                                <div class="value-text"><strong>Responsabilidad:</strong> estamos comprometidos
+                                    con los derechos de nuestros clientes, sus necesidades y el propósito de la
+                                    empresa.</div>
+                            </li>
+                            <li><i class="fas fa-check"></i>
+                                <div class="value-text"><strong>Honestidad:</strong> aplicamos a nuestra labor
+                                    diaria criterios de transparencia y rectitud, con la meta de cada día ofertar un
+                                    mejor trabajo.</div>
+                            </li>
+                            <li><i class="fas fa-check"></i>
+                                <div class="value-text"><strong>Confianza:</strong> realizamos nuestro trabajo
+                                    con agrado y dedicación, generando seguridad en nuestras actividades hacia los
+                                    clientes.</div>
+                            </li>
+                            <li><i class="fas fa-check"></i>
+                                <div class="value-text"><strong>Respeto:</strong> entendemos, escuchamos y
+                                    valoramos a cada uno de los miembros del equipo de trabajo y a nuestros
+                                    usuarios,
+                                    buscando armonía en las relaciones interpersonales y laborales.</div>
+                            </li>
+                            <li><i class="fas fa-check"></i>
+                                <div class="value-text"><strong>Trabajo en equipo:</strong> contamos con un
+                                    personal exitoso y capacitado, donde valoramos el aporte brindado por cada uno y
+                                    trabajamos en forma global y comprometida para alcanzar metas en común.</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-icon">
+                        <div class="icon-circle">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Preguntas Frecuentes (Dinámica) -->
+    <section id="preguntas-view" class="section-light" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Preguntas Frecuentes</h2>
+                <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                <p>Respuestas a las dudas más comunes.</p>
+            </div>
+
+            <div class="faq-container" style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item"
+                    style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.5rem; font-size: 1.1rem;"><i
+                            class="fas fa-question-circle"></i> ¿Necesito hacer una cita?</h3>
+                    <p style="color: #555;">No, trabajamos por orden de llegada. Puede asistir dentro de nuestro horario
+                        laborable de Lunes a Viernes de 6:30 AM a 12:30 PM.</p>
+                </div>
+
+                <div class="faq-item"
+                    style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.5rem; font-size: 1.1rem;"><i
+                            class="fas fa-clock"></i> ¿Cuánto tiempo tardan los resultados?</h3>
+                    <p style="color: #555;">Los resultados suelen estar listos en 2 a 3 días laborables, dependiendo de
+                        los análisis requeridos. Se envían directamente al consulado correspondiente.</p>
+                </div>
+
+                <div class="faq-item"
+                    style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.5rem; font-size: 1.1rem;"><i
+                            class="fas fa-credit-card"></i> ¿Cuáles son los métodos de pago?</h3>
+                    <p style="color: #555;">Solamente aceptamos efectivo (dólares o pesos a la tasa del día).</p>
+                </div>
+
+                <div class="faq-item"
+                    style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.5rem; font-size: 1.1rem;"><i
+                            class="fas fa-syringe"></i> ¿Necesito estar en ayunas?</h3>
+                    <p style="color: #555;">No, no es necesario estar en ayunas. Puede desayunar normalmente antes de
+                        asistir a su evaluación.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Subir Informes (Dinámica) -->
+    <section id="subir-informes-view" class="section-light" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Subir Informes Médicos</h2>
+                <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                <p>Envíe su informe médico de forma segura para la validación de su proceso.</p>
+            </div>
+
+            <div class="form-container">
+                <!-- Mailto submission handled by JS -->
+                <form id="upload-form" class="upload-form" action="https://formsubmit.co/ga90578@gmail.com"
+                    method="POST" enctype="multipart/form-data" novalidate>
+                    <!-- Hidden Configurations -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nuevo Informe Médico + Adjunto">
+                    <input type="hidden" name="_next" id="next-redirect" value="">
+                    <input type="hidden" name="_template" value="table">
+
+                    <div class="form-group">
+                        <label for="fullName" class="required-field">Nombre completo</label>
+                        <input type="text" id="fullName" name="fullName" required
+                            placeholder="Ingrese su nombre completo">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="caseNumber" class="required-field">Número de caso</label>
+                        <input type="text" id="caseNumber" name="caseNumber" required placeholder="Ej: SDO2023...">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <!-- Teléfono eliminado del contacto general, pero requerido aquí -->
+                    <div class="form-group">
+                        <label for="phoneNumber" class="required-field">Número de teléfono</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="(809) 000-0000">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="required-field">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="passportNumber" class="required-field">Número de pasaporte</label>
+                        <input type="text" id="passportNumber" name="passportNumber" required
+                            placeholder="Ingrese su número de pasaporte">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reportType" class="required-field">Tipo de informe</label>
+                        <select id="reportType" name="reportType" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Ecocardiograma">Ecocardiograma</option>
+                            <option value="Informe psicológico">Informe psicológico</option>
+                            <option value="Radiografías">Radiografías</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fileUpload" class="required-field">Adjuntar archivo</label>
+                        <div class="file-input-wrapper">
+                            <input type="file" id="fileUpload" name="attachment" accept=".pdf, .jpg, .jpeg, .png"
+                                required>
+                            <div class="file-custom-label">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Seleccionar archivo (PDF, JPG, PNG)</span>
+                            </div>
+                        </div>
+                        <div id="fileNameDisplay" class="file-name-display"></div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Informe</button>
+                </form>
+                <div id="form-message" class="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram-feed" class="section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Síguenos en Instagram</h2>
+                <div style="width: 50px; height: 3px; background: var(--primary-blue); margin: 10px auto;"></div>
+                <p>@consultoriosdevisard</p>
+            </div>
+            <div id="insta-feed-container" class="insta-feed-container">
+                <!-- Feed items will be injected by JS -->
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="https://www.instagram.com/consultoriosdevisard/" target="_blank" class="btn-primary">
+                    <i class="fab fa-instagram"></i> Ver Perfil Completo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Consultorios de Visa</h3>
+                <p>Centro médico autorizado para realizar exámenes médicos migratorios.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-phone"></i> 809-685-1587</p>
+                <p><i class="fas fa-envelope"></i> info@cdv.do</p>
+            </div>
+            <div class="footer-col">
+                <h3>Dirección</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Independencia No. 254, Gazcue<br>Santo Domingo, R.D.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Consultorios de Visa SRL. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container"></div>
+
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/18096851587" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
